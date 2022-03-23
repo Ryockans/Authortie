@@ -1,0 +1,76 @@
+@import "../../node_modules/reset.css/reset.css";
+@import "fonts/fonts.css";
+@import "variables.css";
+@import "flex.css";
+
+* {
+    box-sizing: border-box;
+}
+
+/* Стили заголовка */
+.navWrapper {
+
+}
+
+.logo img {
+    max-width: 129px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav, a {
+    color: #575756;
+    font: var(--font-nav-regular);
+
+}
+
+.lang {
+    max-height: 18px;
+}
+
+.lang:last-of-type {
+    max-height: 6px;
+    margin-bottom: 3px;
+}
+
+
+a.btn {
+    padding: 10px 30px;
+    margin: 10px;
+    border: 1px solid var(--color-main);
+    color: var(--color-main);
+    border-radius: 123px;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.icons img{
+    max-height: 29px;
+}
+
+.userbar li:last-of-type img {
+    max-height: 46px;
+}
+
+.userbar span {
+
+    font: 700 11px 'Roboto', sans-serif;
+    background-color: #FFCF27;
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    color: white;
+}
+
+.profile span{
+    background-color: #A6CE39;
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    color: white;
+}
+
