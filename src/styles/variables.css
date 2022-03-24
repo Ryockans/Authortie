@@ -1,7 +1,0 @@
-:root {
-    --color-blue: #3A85F4;
-    --color-main: var(--color-blue);
-    --font-header-big: 700 50px/52.75px 'Graphik', 'Roboto', sans-serif;
-    --font-header-medium:  700 40px/40px 'Graphik', 'Roboto', sans-serif;
-    --font-nav-regular:  18px/18px 'Graphik', sans-serif;
-}

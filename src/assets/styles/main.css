@@ -1,5 +1,7 @@
 @import "../../../node_modules/reset.css/reset.css";
 @import "fonts/fonts.css";
 @import "variables.css";
-@import "flex.css";
+@import "header.css";
+@import "components.css";
+@import "containers.css";
 @import "global.css";

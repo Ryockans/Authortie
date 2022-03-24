@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Authorie</title>
-  <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <title>Authorie</title>
+    <link href="assets/styles/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <!-- Навигационная панель -->
@@ -12,83 +12,84 @@
 <!-- Контейнер мы будем использовать и в других секциях, название navWrapper - не подходящее. Подходящее название для
     подобного контйнера - .container
 -->
-<div class="navWrapper">
-  <!-- Неверныые наименования точки зрения БЭМ -->
-  <!-- .navHeader -->
-  <nav>
-    <!-- .navHeader__list -->
-    <ul class="nav">
-      <!-- .navHeader__list-item -->
-      <li class="logo">
-        <!-- .navHeader__link -->
-        <a href="#">
-          <!-- .navHeader__logo -->
-          <img src="imgs/logo.png" alt="Ties between authors" />
-        </a>
-      </li>
+<header>
+    <div class="container">
+        <!-- Неверныые наименования точки зрения БЭМ -->
+        <!-- .navHeader -->
+        <nav class="navHeader">
+            <!-- .navHeader__list -->
+            <ul class="navHeader__list">
+                <!-- .navHeader__list-item -->
+                <li class="navHeader__list-item">
+                    <!-- .navHeader__link -->
+                    <a href="#" class="navHeader__link">
+                        <!-- .navHeader__logo -->
+                        <img src="assets/images/logo.png" alt="Ties between authors" class="navHeader__logo"/>
+                    </a>
+                </li>
 
-      <li>
-        <a href="#">Аналитика</a>
-      </li>
+                <li class="navHeader__list-item">
+                    <a href="#" class="navHeader__link">Аналитика</a>
+                </li>
 
-      <li>
-        <a href="#">Сообщество</a>
-      </li>
+                <li class="navHeader__list-item">
+                    <a href="#" class="navHeader__link">Сообщество</a>
+                </li>
 
-      <li>
-        <a href="#">Для организаций</a>
-      </li>
+                <li class="navHeader__list-item">
+                    <a href="#" class="navHeader__link">Для организаций</a>
+                </li>
 
-      <!-- .nav__list-item .nav__lang-->
-      <li>
-        <!-- .nav__lang -->
-        <div>
-          <!-- .nav__lang-icon -->
-          <img class="lang" src="imgs/Vector.png" alt="Язык:" />
-          <!-- .nav__lang-text -->
-          <span> RU </span>
-          <!-- .nav__lang-arrow -->
-          <img class="lang" src="imgs/strelka.png" alt="" />
+                <!-- .nav__list-item .nav__lang-->
+                <li class="navHeader__list-item navHeader__lang">
+                    <!-- .nav__lang -->
+                    <div class="navHeader__lang">
+                        <!-- .nav__lang-icon -->
+                        <img class="navHeader__lang-icon" src="assets/images/globe.svg" alt="Язык:"/>
+                        <!-- .nav__lang-text -->
+                        <span class="navHeader__lang-text"> RU </span>
+                        <!-- .nav__lang-arrow -->
+                        <img class="navHeader__lang-arrow" src="assets/images/arrow.svg" alt=""/>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <!-- Применить более правильный нейминг -->
+        <div class="userbar">
+            <ul class="userbar__list">
+                <li class="userbar__list-item">
+                    <!-- Создать компонент кнопки (.button .-outlined .-big .-small) -->
+                    <!--
+                      <button class="button"></button>
+                      <button class="button -outlined"></button>
+                      .button {} .button.-outlined {}
+                    -->
+                    <!-- userbar__button -->
+                    <a href="#" class="button -outlined">Создать заявку</a>
+                </li>
+
+                <li class="userbar__list-item">
+                    <!-- Подобные картинки желательно экспортировать как SVG (если в дизайне она сделана векторным образом) -->
+                    <img src="assets/images/message.svg" alt="Сообщения" class="userbar__list-image">
+                    <!-- можно <small> -->
+                    <small class="userbar__list-text">1</small>
+                </li>
+
+                <li class="userbar__list-item">
+                    <!-- Подобные картинки желательно экспортировать как SVG (если в дизайне она сделана векторным образом) -->
+                    <img src="assets/images/notification.svg" alt="Оповещения" class="userbar__list-image">
+                    <small class="userbar__list-text">1</small>
+                </li>
+
+                <li class="userbar__list-item">
+                    <!-- Подобные картинки желательно экспортировать как SVG (если в дизайне она сделана векторным образом) -->
+                    <img src="assets/images/profile.svg" alt="Профиль" class="userbar__list-profile">
+                    <small class="userbar__list-text userbar__list-profileText">&#x2714;</small>
+                </li>
+            </ul>
         </div>
-      </li>
-    </ul>
-  </nav>
-  <!-- Применить более правильный нейминг -->
-  <div class="userbar">
-    <ul>
-      <li>
-        <!-- Создать компонент кнопки (.button .-outlined .-big .-small) -->
-        <!--
-          <button class="button"></button>
-          <button class="button -outlined"></button>
-          .button {} .button.-outlined {}
-        -->
-        <!-- userbar__button -->
-        <a href="#" class="btn">Создать заявку</a>
-      </li>
-
-      <li class="icons">
-        <!-- Подобные картинки желательно экспортировать как SVG (если в дизайне она сделана векторным образом) -->
-        <img src="imgs/messageImg.png" alt="Сообщения">
-        <!-- можно <small> -->
-        <span>1</span>
-      </li>
-
-      <li class="icons">
-        <!-- Подобные картинки желательно экспортировать как SVG (если в дизайне она сделана векторным образом) -->
-        <img src="imgs/notificationImg.png" alt="Оповещения">
-        <span>1</span>
-      </li>
-
-      <li class="profile">
-        <!-- Подобные картинки желательно экспортировать как SVG (если в дизайне она сделана векторным образом) -->
-        <img src="imgs/userImg.png" alt="Профиль">
-        <span>&#x2714;</span>
-      </li>
-    </ul>
-  </div>
-</div>
-
+    </div>
+</header>
 <!-- Структура -->
 <!-- !!! Мы стараемся никогда не сокращать имена переменных-->
 <!-- Плохо: btn, img, cnt

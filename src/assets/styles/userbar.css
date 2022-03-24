@@ -1,0 +1,41 @@
+/* Разметка */
+.userbar__list{
+    display: flex;
+    align-items: center;
+    }
+.userbar__list-item{
+    margin: 0 24px;
+}
+.userbar__list-item {
+    position: relative;
+}
+.userbar__list-text{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+}
+
+.userbar__list-profileText{
+    position: absolute;
+    top: 0;
+    right:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Стили */
+.userbar__list-text {
+    font: 700 11px var(--font-seconadary);
+    background-color: var(--color-notifications);
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    color: var(--color-notifications-text);
+}
+
+.userbar__list-profileText{
+    background-color: var(--color-profile);
+}
