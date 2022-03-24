@@ -1,33 +1,114 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Authorie</title>
-    <link href="styles/main.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <title>Authorie</title>
+  <link href="styles/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <!-- Навигационная панель -->
 
+<!-- Неплохо было бы добавить семантический тег <header> -->
+<!-- Контейнер мы будем использовать и в других секциях, название navWrapper - не подходящее. Подходящее название для
+    подобного контйнера - .container
+-->
 <div class="navWrapper">
-    <nav>
-        <ul class="nav">
-            <li class="logo"><a href="index.html"><img src="imgs/logo.png" alt="Ties between authors"></a></li>
-            <li><a href="html/analitics.html">Аналитика</a></li>
-            <li><a href="html/community.html">Сообщество</a></li>
-            <li><a href="html/for_orgs.html">Для организаций</a></li>
-            <li><img src="imgs/Vector.png" alt="Язык:" class="lang"><span> RU </span><img src="imgs/strelka.png" alt="" class="lang"></li>
-        </ul>
-    </nav>
+  <!-- Неверныые наименования точки зрения БЭМ -->
+  <!-- .navHeader -->
+  <nav>
+    <!-- .navHeader__list -->
+    <ul class="nav">
+      <!-- .navHeader__list-item -->
+      <li class="logo">
+        <!-- .navHeader__link -->
+        <a href="#">
+          <!-- .navHeader__logo -->
+          <img src="imgs/logo.png" alt="Ties between authors" />
+        </a>
+      </li>
 
-    <div class="userbar">
-        <ul>
-            <li><a href="html/form.html" class="btn">Создать заявку</a></li>
-            <li class="icons"><img src="imgs/messageImg.png" alt="Сообщения" ><span>1</span></li>
-            <li class="icons"><img src="imgs/notificationImg.png" alt="Оповещения" ><span>1</span></li>
-            <li class="profile"><img src="imgs/userImg.png" alt="Профиль" ><span>&#x2714;</span></li>
-        </ul>
-    </div>
+      <li>
+        <a href="#">Аналитика</a>
+      </li>
+
+      <li>
+        <a href="#">Сообщество</a>
+      </li>
+
+      <li>
+        <a href="#">Для организаций</a>
+      </li>
+
+      <!-- .nav__list-item .nav__lang-->
+      <li>
+        <!-- .nav__lang -->
+        <div>
+          <!-- .nav__lang-icon -->
+          <img class="lang" src="imgs/Vector.png" alt="Язык:" />
+          <!-- .nav__lang-text -->
+          <span> RU </span>
+          <!-- .nav__lang-arrow -->
+          <img class="lang" src="imgs/strelka.png" alt="" />
+        </div>
+      </li>
+    </ul>
+  </nav>
+  <!-- Применить более правильный нейминг -->
+  <div class="userbar">
+    <ul>
+      <li>
+        <!-- Создать компонент кнопки (.button .-outlined .-big .-small) -->
+        <!--
+          <button class="button"></button>
+          <button class="button -outlined"></button>
+          .button {} .button.-outlined {}
+        -->
+        <!-- userbar__button -->
+        <a href="#" class="btn">Создать заявку</a>
+      </li>
+
+      <li class="icons">
+        <!-- Подобные картинки желательно экспортировать как SVG (если в дизайне она сделана векторным образом) -->
+        <img src="imgs/messageImg.png" alt="Сообщения">
+        <!-- можно <small> -->
+        <span>1</span>
+      </li>
+
+      <li class="icons">
+        <!-- Подобные картинки желательно экспортировать как SVG (если в дизайне она сделана векторным образом) -->
+        <img src="imgs/notificationImg.png" alt="Оповещения">
+        <span>1</span>
+      </li>
+
+      <li class="profile">
+        <!-- Подобные картинки желательно экспортировать как SVG (если в дизайне она сделана векторным образом) -->
+        <img src="imgs/userImg.png" alt="Профиль">
+        <span>&#x2714;</span>
+      </li>
+    </ul>
+  </div>
 </div>
+
+<!-- Структура -->
+<!-- !!! Мы стараемся никогда не сокращать имена переменных-->
+<!-- Плохо: btn, img, cnt
+     Хорошо: button, image, container
+-->
+<!--Все ассеты принято складывать в одну папку: assets -->
+
+<!--/src/assets/styles-->
+<!--/src/assets/images-->
+<!--/src/assets/fonts-->
+
+<!-- Файл main.css должен содежрать только импорты -->
+<!-- 1) main.css / styles.css -->
+<!-- 2) global.css -->
+<!-- 3) fonts.css -->
+<!-- 4) variables.css -->
+<!-- 5) containers.css -->
+<!-- 6) header.css -> header-nav.css + userbar.css -->
+<!-- 7) components.css -> buttons.css -->
+
 
 </body>
 </html>
