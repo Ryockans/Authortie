@@ -1,0 +1,36 @@
+.navHeader__list {
+  display: flex;
+  align-items: center;
+}
+
+.navHeader__list-item {
+  margin: 0 22px;
+}
+
+.navHeader__list-item:first-of-type {
+  margin-left: 0;
+}
+
+.navHeader__list-item:last-of-type {
+  margin-right: 0;
+}
+
+.navHeader__logo {
+  max-width: 129px;
+}
+
+.navHeader__link {
+  color: var(--color-text-main);
+  font: var(--font-header-main);
+}
+
+.navHeader__lang {
+  display: flex;
+  align-items: center;
+}
+
+.navHeader__lang-icon, .navHeader__lang-text, .navHeader__lang-arrow {
+  margin: 0 2px;
+  font: var(--font-header-main);
+  color: var(--color-text-main)
+}

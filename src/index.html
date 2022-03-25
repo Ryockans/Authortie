@@ -1,33 +1,74 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Authorie</title>
-    <link href="styles/main.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+  <title>Authorie</title>
+  <link href="assets/styles/main.css" rel="stylesheet">
 </head>
 <body>
-<!-- Навигационная панель -->
+<header>
+  <div class="container">
+    <nav class="navHeader">
+      <ul class="navHeader__list">
+        <li class="navHeader__list-item">
+          <a href="#" class="navHeader__link">
+            <img src="assets/images/logo.png" alt="Ties between authors" class="navHeader__logo"/>
+          </a>
+        </li>
 
-<div class="navWrapper">
-    <nav>
-        <ul class="nav">
-            <li class="logo"><a href="index.html"><img src="imgs/logo.png" alt="Ties between authors"></a></li>
-            <li><a href="html/analitics.html">Аналитика</a></li>
-            <li><a href="html/community.html">Сообщество</a></li>
-            <li><a href="html/for_orgs.html">Для организаций</a></li>
-            <li><img src="imgs/Vector.png" alt="Язык:" class="lang"><span> RU </span><img src="imgs/strelka.png" alt="" class="lang"></li>
-        </ul>
+        <li class="navHeader__list-item">
+          <a href="#" class="navHeader__link">Аналитика</a>
+        </li>
+
+        <li class="navHeader__list-item">
+          <a href="#" class="navHeader__link">Сообщество</a>
+        </li>
+
+        <li class="navHeader__list-item">
+          <a href="#" class="navHeader__link">Для организаций</a>
+        </li>
+
+        <li class="navHeader__list-item navHeader__lang">
+          <div class="navHeader__lang">
+            <img class="navHeader__lang-icon" src="assets/images/globe.svg" alt="Язык:"/>
+            <span class="navHeader__lang-text"> RU </span>
+            <img class="navHeader__lang-arrow" src="assets/images/arrow.svg" alt="→"/>
+          </div>
+        </li>
+      </ul>
     </nav>
-
     <div class="userbar">
-        <ul>
-            <li><a href="html/form.html" class="btn">Создать заявку</a></li>
-            <li class="icons"><img src="imgs/messageImg.png" alt="Сообщения" ><span>1</span></li>
-            <li class="icons"><img src="imgs/notificationImg.png" alt="Оповещения" ><span>1</span></li>
-            <li class="profile"><img src="imgs/userImg.png" alt="Профиль" ><span>&#x2714;</span></li>
-        </ul>
-    </div>
-</div>
+      <ul class="userbar__list">
+        <li class="userbar__list-item">
+          <a href="#" class="button -outlined">Создать заявку</a>
+        </li>
 
+        <li class="userbar__list-item">
+          <button class="userbar__list-button">
+            <img src="assets/images/message.svg" alt="Сообщения" class="userbar__list-image">
+          </button>
+          <small class="userbar__list-text">1</small>
+        </li>
+
+        <li class="userbar__list-item">
+          <button class="userbar__list-button">
+            <img src="assets/images/notification.svg" alt="Оповещения" class="userbar__list-image">
+          </button>
+          <small class="userbar__list-text">1</small>
+        </li>
+
+        <li class="userbar__list-item">
+          <div class="userbar__list-profile">
+            <img src="assets/images/profile.svg" alt="Профиль" class="usebar__user-avatar">
+          </div>
+          <small class="userbar__list-text userbar__list-profileText">
+            <img src="assets/images/checkmark.svg" alt="✓">
+          </small>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
 </body>
 </html>
