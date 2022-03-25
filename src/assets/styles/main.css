@@ -2,5 +2,6 @@
 @import "fonts/fonts.css";
 @import "variables/variables.css";
 @import "header/header.css";
+@import "content/content.css";
 @import "components/components.css";
 @import "global.css";

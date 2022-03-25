@@ -24,13 +24,13 @@
   font: var(--font-header-main);
 }
 
-.navHeader__lang {
+.language_panel {
   display: flex;
   align-items: center;
 }
 
-.navHeader__lang-icon, .navHeader__lang-text, .navHeader__lang-arrow {
+.language_panel-icon, .language_panel-text, .language_panel-arrow {
   margin: 0 2px;
-  font: var(--font-header-main);
-  color: var(--color-text-main)
+  font: var(--font-language-panel);
+  color: var(--color-text-main);
 }

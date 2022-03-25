@@ -5,6 +5,7 @@
   --color-green: #A6CE39;
   --color-white: #fff;
   --color-grey: #575756;
+  --color-grey-darker: rgb(47, 47, 47);
 
   /* Назначение цветов */
   --color-main: var(--color-blue);
@@ -16,4 +17,5 @@
   --color-button-outlined: var(--color-white);
   --color-button-text: var(--color-white);
   --color-button-outlined-text: var(--color-blue);
+  --color-header: var(--color-grey-darker)
 }
