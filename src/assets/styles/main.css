@@ -1,7 +1,6 @@
 @import "../../../node_modules/reset.css/reset.css";
 @import "fonts/fonts.css";
 @import "variables.css";
-@import "header.css";
-@import "components.css";
-@import "containers.css";
+@import "header/header.css";
+@import "components/components.css";
 @import "global.css";

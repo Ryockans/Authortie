@@ -5,6 +5,7 @@
     --color-green: #A6CE39;
     --color-white: #fff;
     --color-grey: #575756;
+
     /* Назначение цветов */
     --color-main: var(--color-blue);
     --color-text-main: var(--color-grey);
@@ -15,8 +16,8 @@
     --color-button-outlined: var(--color-white);
     --color-button-text: var(--color-white);
     --color-button-outlined-text: var(--color-blue);
-    /* Назначение шрифтов*/
-    --font-regular: 'Graphik', sans-serif;
-    --font-seconadary: 'Roboto', sans-serif;
 
+    /* Назначение шрифтов*/
+    --font-regular: 'Graphik', Tahoma , sans-serif;
+    --font-seconadary: 'Roboto', Arial, sans-serif;
 }

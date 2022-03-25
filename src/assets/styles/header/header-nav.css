@@ -6,6 +6,7 @@
 .navHeader__list-item{
     margin: 0 22px;
 }
+
 /* Стили */
 .navHeader__logo {
     max-width: 129px;
@@ -14,13 +15,13 @@
 .navHeader__link{
     color: var(--color-text-main);
     font: 18px var(--font-regular);
-
 }
 
 .navHeader__lang{
     display: flex;
     align-items: center;
 }
+
 .navHeader__lang-icon,.navHeader__lang-text, .navHeader__lang-arrow{
     margin: 0 2px;
     font: 18px var(--font-regular);

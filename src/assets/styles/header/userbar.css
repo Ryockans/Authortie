@@ -3,12 +3,12 @@
     display: flex;
     align-items: center;
     }
+
 .userbar__list-item{
+    position: relative;
     margin: 0 24px;
 }
-.userbar__list-item {
-    position: relative;
-}
+
 .userbar__list-text{
     position: absolute;
     display: flex;
@@ -26,14 +26,15 @@
     justify-content: center;
     align-items: center;
 }
+
 /* Стили */
 .userbar__list-text {
-    font: 700 11px var(--font-seconadary);
-    background-color: var(--color-notifications);
     width: 14px;
     height: 14px;
-    border-radius: 100%;
+    font: 700 11px var(--font-seconadary);
     color: var(--color-notifications-text);
+    background-color: var(--color-notifications);
+    border-radius: 100%;
 }
 
 .userbar__list-profileText{
