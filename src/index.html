@@ -1,115 +1,74 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Authorie</title>
-    <link href="assets/styles/main.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Authorie</title>
+  <link href="assets/styles/main.css" rel="stylesheet">
 </head>
 <body>
-<!-- Навигационная панель -->
-
-<!-- Неплохо было бы добавить семантический тег <header> -->
-<!-- Контейнер мы будем использовать и в других секциях, название navWrapper - не подходящее. Подходящее название для
-    подобного контйнера - .container
--->
 <header>
-    <div class="container">
-        <!-- Неверныые наименования точки зрения БЭМ -->
-        <!-- .navHeader -->
-        <nav class="navHeader">
-            <!-- .navHeader__list -->
-            <ul class="navHeader__list">
-                <!-- .navHeader__list-item -->
-                <li class="navHeader__list-item">
-                    <!-- .navHeader__link -->
-                    <a href="#" class="navHeader__link">
-                        <!-- .navHeader__logo -->
-                        <img src="assets/images/logo.png" alt="Ties between authors" class="navHeader__logo"/>
-                    </a>
-                </li>
+  <div class="container">
+    <nav class="navHeader">
+      <ul class="navHeader__list">
+        <li class="navHeader__list-item">
+          <a href="#" class="navHeader__link">
+            <img src="assets/images/logo.png" alt="Ties between authors" class="navHeader__logo"/>
+          </a>
+        </li>
 
-                <li class="navHeader__list-item">
-                    <a href="#" class="navHeader__link">Аналитика</a>
-                </li>
+        <li class="navHeader__list-item">
+          <a href="#" class="navHeader__link">Аналитика</a>
+        </li>
 
-                <li class="navHeader__list-item">
-                    <a href="#" class="navHeader__link">Сообщество</a>
-                </li>
+        <li class="navHeader__list-item">
+          <a href="#" class="navHeader__link">Сообщество</a>
+        </li>
 
-                <li class="navHeader__list-item">
-                    <a href="#" class="navHeader__link">Для организаций</a>
-                </li>
+        <li class="navHeader__list-item">
+          <a href="#" class="navHeader__link">Для организаций</a>
+        </li>
 
-                <!-- .nav__list-item .nav__lang-->
-                <li class="navHeader__list-item navHeader__lang">
-                    <!-- .nav__lang -->
-                    <div class="navHeader__lang">
-                        <!-- .nav__lang-icon -->
-                        <img class="navHeader__lang-icon" src="assets/images/globe.svg" alt="Язык:"/>
-                        <!-- .nav__lang-text -->
-                        <span class="navHeader__lang-text"> RU </span>
-                        <!-- .nav__lang-arrow -->
-                        <img class="navHeader__lang-arrow" src="assets/images/arrow.svg" alt=""/>
-                    </div>
-                </li>
-            </ul>
-        </nav>
-        <!-- Применить более правильный нейминг -->
-        <div class="userbar">
-            <ul class="userbar__list">
-                <li class="userbar__list-item">
-                    <!-- Создать компонент кнопки (.button .-outlined .-big .-small) -->
-                    <!--
-                      <button class="button"></button>
-                      <button class="button -outlined"></button>
-                      .button {} .button.-outlined {}
-                    -->
-                    <!-- userbar__button -->
-                    <a href="#" class="button -outlined">Создать заявку</a>
-                </li>
+        <li class="navHeader__list-item navHeader__lang">
+          <div class="navHeader__lang">
+            <img class="navHeader__lang-icon" src="assets/images/globe.svg" alt="Язык:"/>
+            <span class="navHeader__lang-text"> RU </span>
+            <img class="navHeader__lang-arrow" src="assets/images/arrow.svg" alt="→"/>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <div class="userbar">
+      <ul class="userbar__list">
+        <li class="userbar__list-item">
+          <a href="#" class="button -outlined">Создать заявку</a>
+        </li>
 
-                <li class="userbar__list-item">
-                    <!-- Подобные картинки желательно экспортировать как SVG (если в дизайне она сделана векторным образом) -->
-                    <img src="assets/images/message.svg" alt="Сообщения" class="userbar__list-image">
-                    <!-- можно <small> -->
-                    <small class="userbar__list-text">1</small>
-                </li>
+        <li class="userbar__list-item">
+          <button class="userbar__list-button">
+            <img src="assets/images/message.svg" alt="Сообщения" class="userbar__list-image">
+          </button>
+          <small class="userbar__list-text">1</small>
+        </li>
 
-                <li class="userbar__list-item">
-                    <!-- Подобные картинки желательно экспортировать как SVG (если в дизайне она сделана векторным образом) -->
-                    <img src="assets/images/notification.svg" alt="Оповещения" class="userbar__list-image">
-                    <small class="userbar__list-text">1</small>
-                </li>
+        <li class="userbar__list-item">
+          <button class="userbar__list-button">
+            <img src="assets/images/notification.svg" alt="Оповещения" class="userbar__list-image">
+          </button>
+          <small class="userbar__list-text">1</small>
+        </li>
 
-                <li class="userbar__list-item">
-                    <!-- Подобные картинки желательно экспортировать как SVG (если в дизайне она сделана векторным образом) -->
-                    <img src="assets/images/profile.svg" alt="Профиль" class="userbar__list-profile">
-                    <small class="userbar__list-text userbar__list-profileText">✔</small>
-                </li>
-            </ul>
-        </div>
+        <li class="userbar__list-item">
+          <div class="userbar__list-profile">
+            <img src="assets/images/profile.svg" alt="Профиль" class="usebar__user-avatar">
+          </div>
+          <small class="userbar__list-text userbar__list-profileText">
+            <img src="assets/images/checkmark.svg" alt="✓">
+          </small>
+        </li>
+      </ul>
     </div>
+  </div>
 </header>
-<!-- Структура -->
-<!-- !!! Мы стараемся никогда не сокращать имена переменных-->
-<!-- Плохо: btn, img, cnt
-     Хорошо: button, image, container
--->
-<!--Все ассеты принято складывать в одну папку: assets -->
-
-<!--/src/assets/styles-->
-<!--/src/assets/images-->
-<!--/src/assets/fonts-->
-
-<!-- Файл main.css должен содежрать только импорты -->
-<!-- 1) main.css / styles.css -->
-<!-- 2) global.css -->
-<!-- 3) fonts.css -->
-<!-- 4) variables.css -->
-<!-- 5) containers.css -->
-<!-- 6) header.css -> header-nav.css + userbar.css -->
-<!-- 7) components.css -> buttons.css -->
-
-
 </body>
 </html>

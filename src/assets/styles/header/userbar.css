@@ -1,42 +1,49 @@
-/* Разметка */
-.userbar__list{
-    display: flex;
-    align-items: center;
-    }
-
-.userbar__list-item{
-    position: relative;
-    margin: 0 24px;
+.userbar__list {
+  display: flex;
+  align-items: center;
 }
 
-.userbar__list-text{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    bottom: 0;
-    right: 0;
+.userbar__list-item {
+  position: relative;
+  margin: 0 24px;
 }
 
-.userbar__list-profileText{
-    position: absolute;
-    top: 0;
-    right:0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.userbar__list-item:first-of-type {
+  margin-left: 0;
 }
 
-/* Стили */
+.userbar__list-item:last-of-type {
+  margin-right: 0;
+}
+
+.userbar__list-button {
+  background: none;
+  border: none;
+}
+
 .userbar__list-text {
-    width: 14px;
-    height: 14px;
-    font: 700 11px var(--font-seconadary);
-    color: var(--color-notifications-text);
-    background-color: var(--color-notifications);
-    border-radius: 100%;
+  position: absolute;
+  bottom: 0;
+  right: -6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14px;
+  height: 14px;
+  font: var(--font-notifications-text);
+  color: var(--color-notifications-text);
+  background-color: var(--color-notifications);
+  border-radius: 100%;
 }
 
-.userbar__list-profileText{
-    background-color: var(--color-profile);
+.userbar__list-profileText {
+  position: absolute;
+  top: 0;
+  right: -6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-profile);
+  width: 15px;
+  height: 15px;
 }
