@@ -1,8 +1,8 @@
 .banner {
   width: 100%;
-  background-image: linear-gradient(to right, rgba(204, 231, 255, 0.3), rgba(204, 231, 255, 1));
+  background-color: var(--color-banner-background);
+  background-image: linear-gradient(to right, var(--color-banner-gradient-start), var(--color-banner-gradient-end));
 }
-
 
 .banner__content {
   display: flex;
