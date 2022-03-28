@@ -14,7 +14,7 @@
   color: var(--color-content-header);
 }
 
-.flowchart__figure-image-background {
+.image-card {
   display: flex;
   justify-content: center;
   align-items: center;
