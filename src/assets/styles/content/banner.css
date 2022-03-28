@@ -1,0 +1,35 @@
+.banner {
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(204, 231, 255, 0.3), rgba(204, 231, 255, 1));
+}
+
+
+.banner__content {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.banner__content-header {
+  font: var(--font-banner-header);
+  color: var(--color-grey-darker)
+}
+
+.banner__content-text {
+  font: var(--font-banner-text);
+  color: var(--color-grey-darker);
+  width: 620px;
+}
+
+.banner__content-button {
+  margin-top: 48px;
+}
+
+.banner__content-text {
+  margin-top: 33px;
+}
+
+.banner__content-figure {
+  margin: 55px 0;
+}
+
