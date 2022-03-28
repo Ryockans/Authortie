@@ -29,8 +29,11 @@
   align-items: center;
 }
 
-.language_panel-icon, .language_panel-text, .language_panel-arrow {
+.language_panel__icon, .language_panel__text, .language_panel__arrow {
   margin: 0 2px;
+}
+
+.language_panel__text {
   font: var(--font-language-panel);
   color: var(--color-text-main);
 }

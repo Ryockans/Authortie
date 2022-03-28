@@ -1,13 +1,8 @@
-.bannerWrapper {
+.banner {
   width: 100%;
   background-image: linear-gradient(to right, rgba(204, 231, 255, 0.3), rgba(204, 231, 255, 1));
 }
 
-.banner {
-  max-width: 1650px;
-  display: flex;
-  justify-content: space-between;
-}
 
 .banner__content {
   display: flex;

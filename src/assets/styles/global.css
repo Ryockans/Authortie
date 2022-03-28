@@ -1,12 +1,14 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
+header {
+  padding: 19px 0;
+}
 
 
 
