@@ -3,11 +3,16 @@
   --color-blue: #3A85F4;
   --color-yellow: #FFCF27;
   --color-green: #A6CE39;
-  --color-white: #fff;
+  --color-white: #ffffff;
   --color-grey: #575756;
-  --color-grey-darker: rgb(47, 47, 47);
+  --color-grey-darker: #2f2f2f;
+  --color-grey-photographic: #383838;
+  --color-pale: #F9FBFF;
+  --color-pattens-blue: rgba(204, 231, 255, 1);
+  --color-pattens-blue-transparent: rgba(204, 231, 255, 0.3);;
 
   /* Назначение цветов */
+  --color-background: var(--color-pale);
   --color-main: var(--color-blue);
   --color-text-main: var(--color-grey);
   --color-notifications: var(--color-yellow);
@@ -17,5 +22,14 @@
   --color-button-outlined: var(--color-white);
   --color-button-text: var(--color-white);
   --color-button-outlined-text: var(--color-blue);
-  --color-header: var(--color-grey-darker)
+  --color-header: var(--color-grey-darker);
+  --color-banner-background: var(--color-white);
+  --color-gradient-start: var(--color-pattens-blue-transparent);
+  --color-gradient-end: var(--color-pattens-blue);
+  --color-image-background: var(--color-white);
+  --color-content-header: var(--color-grey-photographic);
+  --color-content-main: var(--color-grey-darker);
+
+  /* Гралиенты*/
+  --color-gradient: var(--color-gradient-start), var(--color-gradient-end);
 }
