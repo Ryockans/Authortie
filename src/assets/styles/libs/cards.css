@@ -1,0 +1,10 @@
+.image-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0;
+  width: var(--image-card-width);
+  height: var(--image-card-height);
+  border-radius: var(--image-card-border-radius);
+  background-color: var(--color-image-background);
+}

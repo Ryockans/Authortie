@@ -1,0 +1,28 @@
+.flowchart {
+  margin-bottom: 145px;
+}
+
+.flowchart__header {
+  margin-bottom: 54px;
+}
+
+.flowchart__figure {
+  display: flex;
+  flex-direction: column;
+}
+
+.flowchart__figure-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  text-align: center;
+  margin: 33px auto 0;
+  max-width: 234px;
+  font: var(--font-content-main);
+  color: var(--color-content-main);
+}
+
+.flowchart__arrow {
+  margin-bottom: 65px;
+}
