@@ -3,7 +3,6 @@
   color: var(--color-button-text);
   font: var(--font-button-main);
   text-transform: uppercase;
-  border: 1px solid var(--color-button);
   background-color: var(--color-button);
   border-radius: var(--button-border-radius);
 }
@@ -12,6 +11,72 @@
   padding: 14px 30px 12px 30px;
   font: var(--font-button-outlined);
   color: var(--color-button-outlined-text);
+  border: 1px solid var(--color-button);
   background-color: var(--color-button-outlined);
+}
+
+.button.-purpose {
+  padding: 9px 15px 7px;
+  font: var(--font-card-upper-tags);
+  color: var(--color-purpose-font);
+  background-color: var(--color-purpose-background);
+  border: none;
+}
+
+.button.-studies {
+  padding: 9px 15px 7px;
+  font: var(--font-card-upper-tags);
+  color: var(--color-studies-font);
+  background-color: var(--color-studies-background);
+  border: none;
+}
+
+.button.-small {
+  padding: 8px 18px 6px;
+  font: var(--font-button-small);
+  text-transform: none;
+}
+
+.button.-tag {
+  padding: 8px 15px;
+  display: flex;
+  align-items: center;
+  flex-grow: 0;
+  font: var(--font-card-bottom-tags);
+  color: var(--color-bottom-tag-text);
+  background-color: var(--color-bottom-tag-background);
+  border: none;
+  text-transform: lowercase;
+}
+
+.button.-checked {
+  padding: 8px 27px 8px 21px;
+  display: flex;
+  align-items: center;
+  font: var(--font-button-checked);
+  background-color: var(--colot-button-checked);
+}
+
+.button.-offer {
+  padding: 8px 37px 8px 31px;
+  display: flex;
+  align-items: center;
+  font: var(--font-button-checked);
+}
+
+.button.-round {
+  padding: 0;
+  border-radius: 100%;
+  width: 41px;
+  height: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button.-show {
+  padding: 16px 63px;
+  font: var(--font-button-main);
+  border-width: 2px;
 }
 

@@ -1,0 +1,11 @@
+.rating {
+  margin-left: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating__value {
+  font: var(--font-rating-value);
+  color: var(--color-main);
+}

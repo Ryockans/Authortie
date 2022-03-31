@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+button {
+  background: none;
+  border: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -21,7 +26,26 @@ h2 {
   color: var(--color-content-header);
 }
 
+h3 {
+  text-align: center;
+  font: var(--font-subtitle);
+  color: var(--color-subtitle);
+}
 
+h4 {
+  font: var(--font-cooperation-card-header);
+  color: var(--color-header);
+}
+
+h5 {
+  font: var(--font-cooperation-card-suntitle);
+  color: var(--color-cooperation-card-subtitle);
+}
+
+h6 {
+  font: var(--font-applicant-name);
+  color: var(--color-header);
+}
 
 
 

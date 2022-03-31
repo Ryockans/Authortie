@@ -4,3 +4,7 @@
   padding: 0 15px;
 }
 
+.container.-for-cards {
+  max-width: 1730px;
+}
+

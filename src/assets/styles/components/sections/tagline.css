@@ -1,0 +1,31 @@
+.tagline-upper__button {
+  margin-right: 25px;
+}
+
+.tagline-upper__button:last-of-type {
+  margin-right: 0;
+}
+
+.tagline-middle__button {
+  margin-right: 10px;
+}
+
+.tagline-middle__button:last-of-type {
+  margin-right: 0;
+}
+
+.tagline-bottom {
+  display: flex;
+}
+
+.tagline-bottom__button {
+  margin-right: 15px;
+}
+
+.tagline-bottom__button-image {
+  margin-right: 5px;
+}
+
+.tagline-bottom__button:last-of-type {
+  margin-right: 0;
+}

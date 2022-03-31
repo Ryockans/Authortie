@@ -1,0 +1,16 @@
+.community-block__subtitle {
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+.community-block__offers {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.community-block__offers-other {
+  margin-bottom: 95px;
+  display: flex;
+  justify-content: center;
+}

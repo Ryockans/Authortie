@@ -3,10 +3,22 @@
   --font-header-main: 18px 'Graphik', Tahoma, sans-serif;
   --font-button-outlined: 500 14px/14px 'Graphik', Tahoma, sans-serif;
   --font-button-main: 700 18px 'Roboto', Arial, sans-serif;
+  --font-button-checked: 700 15px 'Roboto', Arial, sans-serif;
   --font-notifications-text: 700 11px 'Roboto', Arial, sans-serif;
   --font-banner-header: 700 50px 'Graphik', Tahoma, sans-serif;
   --font-banner-text: 20px/25px 'Graphik', Tahoma, sans-serif;
   --font-language-panel: 16px 'Graphik', Tahoma, sans-serif;
   --font-content-header: 700 40px 'Graphik', Tahoma, sans-serif;
   --font-content-main: 16px 'Graphik', Tahoma, sans-serif;
+  --font-card-upper-tags: 900 11px 'Roboto', Arial, sans-serif;
+  --font-card-bottom-tags: 14px 'Graphik', Tahoma, sans-serif;
+  --font-subtitle: 20px 'Roboto', Arial, sans-serif;
+  --font-cooperation-card-header: 700 18px 'Graphik', Tahoma, sans-serif;
+  --font-cooperation-card-suntitle: 500 15px 'Graphik', Tahoma, sans-serif;
+  --font-cooperation-card-text: 14px 'Graphik', Tahoma, sans-serif;
+  --font-button-small: 14px 'Graphik', Tahoma, sans-serif;
+  --font-applicant-name: 700 16px/20px 'Roboto', Arial, sans-serif;
+  --font-applicant-info: 14px/20px 'Roboto', Arial, sans-serif;
+  --font-rating-value: 500 20px 'Roboto', Arial, sans-serif;
+  --font-footer-text: 16px/20px 'Roboto', Arial, sans-serif;
 }
