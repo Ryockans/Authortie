@@ -10,3 +10,37 @@
   --font-content-header: 700 40px 'Graphik', Tahoma, sans-serif;
   --font-content-main: 16px 'Graphik', Tahoma, sans-serif;
 }
+
+
+@media (max-width: 1366px) {
+  :root {
+    --font-header-main: 16px 'Graphik', Tahoma, sans-serif;
+    --font-button-main: 700 14px 'Roboto', Arial, sans-serif;
+    --font-banner-header: 700 36px 'Graphik', Tahoma, sans-serif;
+    --font-banner-text: 16px/20px 'Graphik', Tahoma, sans-serif;
+    --font-content-header: 700 26px 'Graphik', Tahoma, sans-serif;
+    --font-content-main: 14px 'Graphik', Tahoma, sans-serif;
+  }
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --font-button-main: 700 13px 'Roboto', Arial, sans-serif;
+    --font-banner-header: 700 30px 'Graphik', Tahoma, sans-serif;
+    --font-banner-text: 14px/18px 'Graphik', Tahoma, sans-serif;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --font-banner-header: 700 28px 'Graphik', Tahoma, sans-serif;
+    --font-content-header: 700 24px 'Graphik', Tahoma, sans-serif;
+    --font-content-main: 13px 'Graphik', Tahoma, sans-serif;
+  }
+}
+
+@media (max-width: 630px) {
+  :root {
+    --font-button-outlined: 500 12px/12px 'Graphik', Tahoma, sans-serif;;
+  }
+}

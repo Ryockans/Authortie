@@ -15,3 +15,21 @@
   background-color: var(--color-button-outlined);
 }
 
+@media (max-width: 1024px) {
+  .button {
+    padding: 14px 31px 13px 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .button {
+    padding: 12px 27px 11px 28px;
+  }
+}
+
+@media (max-width: 630px) {
+  .button.-outlined {
+    padding: 14px 20px 12px 20px;
+  }
+}
+
