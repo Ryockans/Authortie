@@ -1,9 +1,13 @@
 .cooperation-card {
   margin: 0 23px 46px;
   padding: 14px 25px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   flex-grow: 0;
   width: var(--cooperation-card-width);
-  height: var(--cooperation-card-height);
+  min-height: var(--cooperation-card-height-min);
+  max-height: var(--cooperation-card-height-max);
   border-radius: var(--cooperation-card-border-radius);
   background-color: var(--color-image-background);
 }
@@ -14,6 +18,8 @@
 
 .cooperation-card__header {
   margin: 27px 0;
+  max-height: 90px;
+  overflow-y: hidden;
 }
 
 .cooperation-card__comment {
@@ -27,6 +33,8 @@
 .cooperation-card__comment-text {
   font: var(--font-cooperation-card-text);
   color: var(--color-cooperation-card-text);
+  max-height: 68px;
+  overflow-y: scroll;
 }
 
 .cooperation-card__award-header {
