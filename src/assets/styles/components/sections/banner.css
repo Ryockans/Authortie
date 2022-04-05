@@ -12,20 +12,106 @@
 }
 
 .banner__content-text {
+  margin-top: 33px;
   font: var(--font-banner-text);
   color: var(--color-grey-darker);
   width: 620px;
+}
+
+.banner__content-text.-alternate {
+  display: none;
 }
 
 .banner__content-button {
   margin-top: 48px;
 }
 
-.banner__content-text {
-  margin-top: 33px;
-}
-
 .banner__content-figure {
   margin: 55px 0;
 }
 
+@media (max-width: 1366px) {
+  .banner {
+    margin-bottom: 70px;
+  }
+
+  .banner__content-text {
+    margin-top: 25px;
+    width: 480px;
+  }
+
+  .banner__content-image {
+    max-width: 557px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .banner {
+    margin-bottom: 65px;
+  }
+
+  .banner__content-text {
+    width: 400px;
+    display: none;
+  }
+
+  .banner__content-image {
+    max-width: 460px;
+  }
+
+  .banner__content-text.-alternate {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner__content, .banner__content-text {
+    width: 340px;
+  }
+
+  .banner__content-image {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 630px) {
+  .banner__content {
+    width: 460px;
+    padding-top: 45px;
+    padding-bottom: 90px;
+    background-image: url("../../../images/scientists_mini.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+
+  .banner__content-image {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner {
+    margin-bottom: 50px;
+  }
+
+  .banner__content {
+    background-position-x: 220px;
+  }
+
+  .banner__content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 420px) {
+  .banner__content {
+    background-size: 160px;
+    background-position-x: 200px;
+  }
+
+  .banner__content-text {
+    width: 300px;
+  }
+
+}

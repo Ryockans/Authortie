@@ -8,7 +8,7 @@
 </head>
 <body>
 <header class="page-header">
-  <div class="container flex-between">
+  <div class="container -for-header flex-between">
     <nav class="navHeader">
       <ul class="navHeader__list">
         <li class="navHeader__list-item">
@@ -58,6 +58,12 @@
           <small class="userbar__list-text">1</small>
         </li>
 
+        <li class="userbar__list-item -menu">
+          <button class="userbar__menu-button">
+            <img src="assets/images/userbar_show.svg" alt="Меню">
+          </button>
+        </li>
+
         <li class="userbar__list-item">
           <div class="userbar__list-profile">
             <img src="assets/images/profile.svg" alt="Профиль" class="usebar__user-avatar">
@@ -66,6 +72,7 @@
             <img src="assets/images/checkmark.svg" alt="✓">
           </small>
         </li>
+
       </ul>
     </div>
   </div>
@@ -83,6 +90,10 @@
           в областях совместных исследований, соавторства, рецензирования
           и повышения индекса цитирования.
         </div>
+        <div class="banner__content-text -alternate">
+          Аналитика, соавторство, рецензирование и
+          продвижение научных работ.
+        </div>
         <div class="banner__content-button">
           <a href="#" class="button">
             Присоединиться
@@ -97,7 +108,7 @@
 
   <section class="flowchart">
     <h2 class="flowchart__header">Как это работает</h2>
-    <div class="container flex-between">
+    <div class="container flowchart__cards">
       <figure class="flowchart__figure">
         <div class="image-card">
           <img src="assets/images/estimate.svg" alt="Оцените привлекательность темы" class="image-card__picture">
@@ -120,7 +131,7 @@
         <div class="image-card">
           <img src="assets/images/emprove.svg" alt="Улучшите написанную работу" class="image-card__picture">
         </div>
-        <figcaption class="flowchart__figure-text _one-lined">Улучшите написанную работу</figcaption>
+        <figcaption class="flowchart__figure-text">Улучшите написанную работу</figcaption>
       </figure>
 
       <img src="assets/images/long_arrow.svg" alt="→" class="flowchart__arrow">
@@ -129,7 +140,7 @@
         <div class="image-card">
           <img src="assets/images/promote.svg" alt="Продвиньте свою работу" class="image-card__picture">
         </div>
-        <figcaption class="flowchart__figure-text _one-lined">Продвиньте свою работу</figcaption>
+        <figcaption class="flowchart__figure-text">Продвиньте свою работу</figcaption>
       </figure>
     </div>
   </section>

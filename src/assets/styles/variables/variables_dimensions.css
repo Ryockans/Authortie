@@ -1,4 +1,23 @@
 :root {
   --image-card-width: 266px;
   --image-card-height: 267px;
+  --image-card-caption-width: 234px;
+
+}
+
+
+@media (max-width: 1366px) {
+  :root {
+    --image-card-width: 179px;
+    --image-card-height: 179px;
+    --image-card-caption-width: 179px;
+  }
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --image-card-width: 121px;
+    --image-card-height: 121px;
+    --image-card-caption-width: 170px;
+  }
 }

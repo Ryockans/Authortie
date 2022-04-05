@@ -6,8 +6,15 @@
   margin-bottom: 54px;
 }
 
+.flowchart__cards {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
 .flowchart__figure {
   display: flex;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -18,11 +25,67 @@
   flex-grow: 1;
   text-align: center;
   margin: 33px auto 0;
-  max-width: 234px;
+  max-width: var(--image-card-caption-width);
   font: var(--font-content-main);
   color: var(--color-content-main);
 }
 
 .flowchart__arrow {
   margin-bottom: 65px;
+}
+
+@media (max-width: 1366px) {
+  .flowchart__header {
+    margin-bottom: 50px;
+  }
+
+  .flowchart__arrow {
+    max-width: 21px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .flowchart__header {
+    margin-bottom: 45px;
+  }
+
+  .flowchart__arrow {
+    max-width: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .flowchart__figure-text {
+    margin-top: 15px;
+  }
+
+  .flowchart__arrow {
+    max-width: 14px;
+    margin-bottom: 47px;
+  }
+}
+
+@media (max-width: 630px) {
+  .flowchart__cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .flowchart__figure {
+    margin: 20px 10px;
+  }
+
+  .flowchart__figure-text {
+    width: var(--image-card-width);
+  }
+
+  .flowchart__arrow {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .flowchart__header {
+    margin-bottom: 25px;
+  }
 }
