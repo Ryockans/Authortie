@@ -7,7 +7,7 @@
   height: var(--image-card-height);
   border-radius: var(--image-card-border-radius);
   background-color: var(--color-image-background);
-  box-shadow: 0 8px 23px var(--color-imabe-card-shadow);
+  box-shadow: 0 8px 23px var(--color-image-card-shadow);
 }
 
 @media (max-width: 1366px) {

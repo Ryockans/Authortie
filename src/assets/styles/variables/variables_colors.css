@@ -1,37 +1,74 @@
 :root {
   /* Палитра цветов */
   --color-blue: #3A85F4;
-  --color-yellow: #FFCF27;
-  --color-green: #A6CE39;
+  --color-pattens-blue: rgba(204, 231, 255, 1);
+  --color-pattens-blue-transparent: rgba(204, 231, 255, 0.3);
+  --color-blue-bluebryy-tarnsparent: rgba(44, 128, 255, 0.2);
+  --color-blue-cyan: #CADCF8;
   --color-white: #ffffff;
   --color-grey: #575756;
   --color-grey-darker: #2f2f2f;
   --color-grey-photographic: #383838;
+  --color-grey-outer-space: #464646;
+  --color-grey-matterhorn: #505050;
+  --color-grey-light-silver: #d9d9d9;
+  --color-grey-approx-snow: #f9f9f9;
+  --color-grey-approx-jaguar: #262628;
+  --color-grey-common: #808080;
   --color-pale: #F9FBFF;
-  --color-pattens-blue: rgba(204, 231, 255, 1);
-  --color-pattens-blue-transparent: rgba(204, 231, 255, 0.3);
-  --color-blue-bluebryy-tarnsparent: rgba(44, 128, 255, 0.2);
+  --color-yellow: #FFCF27;
+  --color-yellow-light: #fdffe7;
+  --color-yellow-dark: #bc9300;
+  --color-green: #A6CE39;
+  --color-green-light: #EBFFFA;
+  --color-green-dark: #00A880;
+
+
+  /* Градиенты */
+  --color-gradient: var(--color-gradient-start), var(--color-gradient-end);
 
   /* Назначение цветов */
   --color-background: var(--color-pale);
   --color-main: var(--color-blue);
+
+  /* Панель навигации */
   --color-text-main: var(--color-grey);
   --color-notifications: var(--color-yellow);
   --color-profile: var(--color-green);
   --color-notifications-text: var(--color-white);
+
+  /* Кнопки */
   --color-button: var(--color-blue);
   --color-button-outlined: var(--color-white);
   --color-button-text: var(--color-white);
   --color-button-outlined-text: var(--color-blue);
+  --colot-button-checked: var(--color-grey-light-silver);
+
+  /* Секции */
   --color-header: var(--color-grey-darker);
   --color-banner-background: var(--color-white);
   --color-gradient-start: var(--color-pattens-blue-transparent);
   --color-gradient-end: var(--color-pattens-blue);
   --color-image-background: var(--color-white);
-  --color-imabe-card-shadow: var(--color-blue-bluebryy-tarnsparent);
+  --color-image-card-shadow: var(--color-blue-bluebryy-tarnsparent);
   --color-content-header: var(--color-grey-photographic);
   --color-content-main: var(--color-grey-darker);
 
-  /* Гралиенты*/
-  --color-gradient: var(--color-gradient-start), var(--color-gradient-end);
+  /* Карточки */
+  --color-purpose-background: var(--color-yellow-light);
+  --color-purpose-font: var(--color-yellow-dark);
+  --color-studies-background: var(--color-green-light);
+  --color-studies-font: var(--color-green-dark);
+  --color-subtitle: var(--color-grey-outer-space);
+  --color-cooperation-card-subtitle: var(--color-grey-matterhorn);
+  --color-cooperation-card-text: var(--color-grey-darker);
+  --color-bottom-tag-text: var(--color-grey-darker);
+  --color-bottom-tag-background: var(--color-grey-approx-snow);
+  --color-applicant-info: var(--color-grey-darker);
+  --color-applicant-info-border: var(--color-blue-cyan);
+
+  /* Нижний колонтитул */
+  --color-footer-background: var(--color-grey-approx-jaguar);
+  --color-footer-text: var(--color-white);
+  --color-copyright: var(--color-grey-common);
 }

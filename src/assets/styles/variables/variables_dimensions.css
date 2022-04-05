@@ -1,6 +1,9 @@
 :root {
   --image-card-width: 266px;
   --image-card-height: 267px;
+  --cooperation-card-width: 500px;
+  --cooperation-card-height-min: 568px;
+  --cooperation-card-height-max: 680px;
   --image-card-caption-width: 234px;
 
 }

@@ -1,0 +1,86 @@
+.cooperation-card {
+  margin: 0 23px 46px;
+  padding: 14px 25px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 0;
+  width: var(--cooperation-card-width);
+  min-height: var(--cooperation-card-height-min);
+  max-height: var(--cooperation-card-height-max);
+  border-radius: var(--cooperation-card-border-radius);
+  background-color: var(--color-image-background);
+}
+
+.cooperation-card__upper-tags {
+  display: flex;
+}
+
+.cooperation-card__header {
+  margin: 27px 0;
+  max-height: 90px;
+  overflow-y: hidden;
+}
+
+.cooperation-card__comment {
+  margin-bottom: 27px;
+}
+
+.cooperation-card__comment-header {
+  margin-bottom: 10px;
+}
+
+.cooperation-card__comment-text {
+  font: var(--font-cooperation-card-text);
+  color: var(--color-cooperation-card-text);
+  max-height: 68px;
+  overflow-y: scroll;
+}
+
+.cooperation-card__award-header {
+  margin-bottom: 20px;
+}
+
+.cooperation-card__award-buttons {
+  margin-bottom: 65px;
+}
+
+.cooperation-card__award-amount {
+  font: var(--font-button-small);
+  color: var(--color-cooperation-card-text)
+}
+
+.cooperation-card__bottom-tags {
+  margin-bottom: 20px;
+}
+
+.cooperation-card__applicant {
+  padding: 12px 0;
+  margin-bottom: 15px;
+  display: flex;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: var(--color-applicant-info-border);
+}
+
+
+.cooperation-card__applicant-photo {
+  margin-left: 10px;
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.cooperation-card__applicant-info {
+  margin-left: 10px;
+  display: flex;
+  flex-flow: column;
+  text-align: left;
+  justify-content: center;
+  font: var(--font-applicant-info);
+  color: var(--color-applicant-info);
+}
+
+.cooperation-card__buttons {
+  display: flex;
+  justify-content: space-between;
+}
