@@ -3,6 +3,7 @@
   --color-blue: #3A85F4;
   --color-pattens-blue: rgba(204, 231, 255, 1);
   --color-pattens-blue-transparent: rgba(204, 231, 255, 0.3);
+  --color-blue-bluebryy-tarnsparent: rgba(44, 128, 255, 0.2);
   --color-blue-cyan: #CADCF8;
   --color-white: #ffffff;
   --color-grey: #575756;
@@ -49,6 +50,7 @@
   --color-gradient-start: var(--color-pattens-blue-transparent);
   --color-gradient-end: var(--color-pattens-blue);
   --color-image-background: var(--color-white);
+  --color-image-card-shadow: var(--color-blue-bluebryy-tarnsparent);
   --color-content-header: var(--color-grey-photographic);
   --color-content-main: var(--color-grey-darker);
 

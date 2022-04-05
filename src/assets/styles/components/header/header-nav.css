@@ -24,3 +24,22 @@
   font: var(--font-header-main);
 }
 
+@media (max-width: 1366px) {
+  .navHeader__list-item {
+    margin: 0 18px;
+  }
+
+  .navHeader__list-item:last-of-type {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navHeader__list-item {
+    display: none;
+  }
+
+  .navHeader__list-item:first-of-type {
+    display: block;
+  }
+}

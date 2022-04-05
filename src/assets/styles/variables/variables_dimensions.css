@@ -4,4 +4,23 @@
   --cooperation-card-width: 500px;
   --cooperation-card-height-min: 568px;
   --cooperation-card-height-max: 680px;
+  --image-card-caption-width: 234px;
+
+}
+
+
+@media (max-width: 1366px) {
+  :root {
+    --image-card-width: 179px;
+    --image-card-height: 179px;
+    --image-card-caption-width: 179px;
+  }
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --image-card-width: 121px;
+    --image-card-height: 121px;
+    --image-card-caption-width: 170px;
+  }
 }
