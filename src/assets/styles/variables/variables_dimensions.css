@@ -17,10 +17,30 @@
   }
 }
 
+@media (max-width: 1080px) {
+  :root {
+    --cooperation-card-width: 376px;
+    --cooperation-card-height-min: 465x;
+    --cooperation-card-height-max: 580px;
+  }
+}
+
 @media (max-width: 1024px) {
   :root {
     --image-card-width: 121px;
     --image-card-height: 121px;
     --image-card-caption-width: 170px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --cooperation-card-width: 329px;
+  }
+}
+
+@media (max-width: 630px) {
+  :root {
+    --cooperation-card-width: 340px;
   }
 }
