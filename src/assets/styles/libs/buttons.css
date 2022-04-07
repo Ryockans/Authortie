@@ -72,6 +72,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.button__arrow {
+  position: absolute;
+  left: 40%;
 }
 
 .button.-show {
@@ -110,6 +116,11 @@
 
   .button.-show {
     padding: 14px 43px;
+  }
+
+  .button__arrow {
+    position: absolute;
+    height: 14px;
   }
 }
 
