@@ -13,3 +13,64 @@
 .social-media__list-item:last-of-type {
   margin-right: 0;
 }
+
+.social-media__logo {
+  display: none;
+}
+
+@media (max-width: 1366px) {
+  .social-media__link-icon {
+    height: 21px;
+    width: 21px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .social-media {
+    padding: 19px 0 0;
+    border-top: 1px solid var(--color-footer-border);
+    width: 100%;
+  }
+
+  .social-media__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .social-media__list {
+    justify-content: center;
+  }
+
+  .social-media__list-item {
+    margin: 0 7px;
+  }
+
+  .social-media__link-icon {
+    height: 14px;
+    width: 14px;
+  }
+}
+
+@media (max-width: 630px) {
+  .social-media {
+    padding: 0;
+    width: 40%;
+    height: 95px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-top: none;
+  }
+
+  .social-media__logo {
+    margin: 0;
+    align-items: flex-start;
+  }
+
+  .social-media__list-item {
+    padding-top: 3px;
+  }
+}

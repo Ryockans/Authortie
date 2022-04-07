@@ -80,6 +80,39 @@
   border-width: 2px;
 }
 
+@media (max-width: 1366px) {
+  .button.-show {
+    padding: 14px 58px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .button.-purpose, .button.-studies {
+    padding: 9px 10px 8px;
+  }
+
+  .button.-tag {
+    padding: 7px 9px;
+  }
+
+  .button.-offer {
+    padding: 10px 22px 9px 21px;
+  }
+
+  .button.-checked {
+    padding: 5px 17px 4px 15px;
+  }
+
+  .button.-round {
+    width: 33px;
+    height: 33px;
+  }
+
+  .button.-show {
+    padding: 14px 43px;
+  }
+}
+
 @media (max-width: 1024px) {
   .button {
     padding: 14px 31px 13px 32px;
@@ -90,11 +123,19 @@
   .button {
     padding: 12px 27px 11px 28px;
   }
+
+  .button_checked__icon {
+    display: none
+  }
 }
 
 @media (max-width: 630px) {
   .button.-outlined {
     padding: 14px 20px 12px 20px;
+  }
+
+  .button.-round {
+    padding: 0;
   }
 }
 

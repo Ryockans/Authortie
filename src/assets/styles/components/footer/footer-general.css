@@ -2,3 +2,36 @@
   background-color: var(--color-footer-background);
   padding: 40px 0 25px;
 }
+
+.footer-display {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+  .page-footer {
+    padding: 20px 0 15px;
+  }
+
+  .footer-display {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 630px) {
+  .page-footer {
+    padding: 22px 30px 10px;
+  }
+
+  .footer-display {
+    flex-direction: row-reverse;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 400px) {
+  .page-footer {
+    padding: 22px 10px 10px;
+  }
+}

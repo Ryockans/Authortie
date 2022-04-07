@@ -10,6 +10,7 @@
   max-height: var(--cooperation-card-height-max);
   border-radius: var(--cooperation-card-border-radius);
   background-color: var(--color-image-background);
+  box-shadow: 0 5px 15px var(--color-cooperation-card-shadow);
 }
 
 .cooperation-card__upper-tags {
@@ -37,12 +38,37 @@
   overflow-y: scroll;
 }
 
+.cooperation-card__award {
+  max-height: 130px;
+}
+
 .cooperation-card__award-header {
   margin-bottom: 20px;
 }
 
 .cooperation-card__award-buttons {
   margin-bottom: 65px;
+}
+
+.cooperation-card__award-buttons.-alternate {
+  display: none;
+  font: var(--font-cooperation-card-award-text);
+  color: var(--color-cooperation-card-text);
+}
+
+.cooperation-card__award-mini {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.cooperation-card__award-mini:last-of-type {
+  margin-bottom: 0;
+}
+
+.cooperation-card__award-icon {
+  margin-right: 5px;
+  margin-bottom: 2px;
 }
 
 .cooperation-card__award-amount {
@@ -63,6 +89,9 @@
   border-color: var(--color-applicant-info-border);
 }
 
+.cooperation-card__applicant-origin {
+  display: none;
+}
 
 .cooperation-card__applicant-photo {
   margin-left: 10px;
@@ -83,4 +112,72 @@
 .cooperation-card__buttons {
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 1366px) {
+
+  .cooperation-card:nth-of-type(n+5) {
+    display: none;
+  }
+
+  .cooperation-card__applicant-origin {
+    display: inline-block;
+  }
+
+  .cooperation-card__award-buttons {
+    display: none;
+  }
+
+
+  .cooperation-card__award-buttons.-alternate {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1080px) {
+  .cooperation-card {
+    padding: 10px 20px 20px;
+  }
+
+  .cooperation-card__header {
+    margin: 15px 0;
+  }
+
+  .cooperation-card__applicant-photo {
+    height: 67px;
+    width: 67px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cooperation-card {
+    margin: 0 9px 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cooperation-card {
+    padding: 15px 15px 20px;
+  }
+
+  .cooperation-card__header {
+    max-height: 100px;
+  }
+
+  .cooperation-card__award {
+    max-height: 100px;
+  }
+
+  .cooperation-card__applicant {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cooperation-card:nth-of-type(n+3) {
+    display: none;
+  }
 }

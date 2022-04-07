@@ -9,12 +9,14 @@
   --color-grey: #575756;
   --color-grey-darker: #2f2f2f;
   --color-grey-photographic: #383838;
+  --color-grey-night-rider: #343434;
   --color-grey-outer-space: #464646;
   --color-grey-matterhorn: #505050;
   --color-grey-light-silver: #d9d9d9;
   --color-grey-approx-snow: #f9f9f9;
   --color-grey-approx-jaguar: #262628;
   --color-grey-common: #808080;
+  --color-black-transparent: rgba(0, 0, 0, 0.06);
   --color-pale: #F9FBFF;
   --color-yellow: #FFCF27;
   --color-yellow-light: #fdffe7;
@@ -62,6 +64,7 @@
   --color-subtitle: var(--color-grey-outer-space);
   --color-cooperation-card-subtitle: var(--color-grey-matterhorn);
   --color-cooperation-card-text: var(--color-grey-darker);
+  --color-cooperation-card-shadow: var(--color-black-transparent);
   --color-bottom-tag-text: var(--color-grey-darker);
   --color-bottom-tag-background: var(--color-grey-approx-snow);
   --color-applicant-info: var(--color-grey-darker);
@@ -71,4 +74,5 @@
   --color-footer-background: var(--color-grey-approx-jaguar);
   --color-footer-text: var(--color-white);
   --color-copyright: var(--color-grey-common);
+  --color-footer-border: var(--color-grey-night-rider)
 }

@@ -35,6 +35,10 @@
 }
 
 @media (max-width: 1366px) {
+  .flowchart {
+    margin-bottom: 100px;
+  }
+
   .flowchart__header {
     margin-bottom: 50px;
   }
@@ -45,6 +49,10 @@
 }
 
 @media (max-width: 1024px) {
+  .flowchart {
+    margin-bottom: 70px;
+  }
+
   .flowchart__header {
     margin-bottom: 45px;
   }
@@ -72,7 +80,7 @@
   }
 
   .flowchart__figure {
-    margin: 20px 10px;
+    margin: 20px 30px;
   }
 
   .flowchart__figure-text {

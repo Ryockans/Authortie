@@ -4,9 +4,6 @@
   padding: 0 15px;
 }
 
-.container.-for-cards {
-  max-width: 1730px;
-}
 
 @media (max-width: 1366px) {
   .container {
@@ -26,17 +23,25 @@
   .container.-for-header {
     max-width: 890px;
   }
+
+  .container.-for-header {
+    max-width: 830px;
+  }
 }
 
 @media (max-width: 768px) {
   .container, .container.-for-header {
     max-width: 678px;
   }
+
+  .container.-for-footer {
+    max-width: 728px;
+  }
 }
 
 @media (max-width: 630px) {
   .container {
-    max-width: 500px;
+    max-width: 480px;
   }
 
   .container.-for-header {

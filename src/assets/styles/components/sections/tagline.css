@@ -29,3 +29,36 @@
 .tagline-bottom__button:last-of-type {
   margin-right: 0;
 }
+
+@media (max-width: 1080px) {
+  .tagline-upper__button {
+    margin-right: 5px;
+  }
+
+  .tagline-upper {
+    max-height: 32px;
+  }
+
+  .tagline-bottom__button-image {
+    height: 9px;
+    width: 9px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tagline-upper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-height: 65px;
+  }
+
+  .tagline-upper__button {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  .tagline-upper__button:last-of-type {
+    margin-bottom: 0;
+  }
+}

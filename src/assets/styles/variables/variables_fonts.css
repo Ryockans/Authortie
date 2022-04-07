@@ -19,6 +19,7 @@
   --font-cooperation-card-header: 700 18px var(--font-family-main);
   --font-cooperation-card-suntitle: 500 15px var(--font-family-main);
   --font-cooperation-card-text: 14px var(--font-family-main);
+  --font-cooperation-card-award-text: 16px var(--font-family-main);
   --font-button-small: 14px var(--font-family-main);
   --font-applicant-name: 700 16px/20px var(--font-family-secondary);
   --font-applicant-info: 14px/20px var(--font-family-secondary);
@@ -29,33 +30,50 @@
 
 @media (max-width: 1366px) {
   :root {
-    --font-header-main: 16px 'Graphik', Tahoma, sans-serif;
-    --font-button-main: 700 14px 'Roboto', Arial, sans-serif;
-    --font-banner-header: 700 36px 'Graphik', Tahoma, sans-serif;
-    --font-banner-text: 16px/20px 'Graphik', Tahoma, sans-serif;
-    --font-content-header: 700 26px 'Graphik', Tahoma, sans-serif;
-    --font-content-main: 14px 'Graphik', Tahoma, sans-serif;
+    --font-header-main: 16px var(--font-family-main);
+    --font-button-main: 700 14px var(--font-family-secondary);
+    --font-banner-header: 700 36px var(--font-family-main);
+    --font-banner-text: 16px/20px var(--font-family-main);
+    --font-content-header: 700 26px var(--font-family-main);
+    --font-content-main: 14px var(--font-family-main);
+    --font-subtitle: 16px var(--font-family-secondary);
+    --font-footer-text: 14px/16px var(--font-family-secondary);
+  }
+}
+
+@media (max-width: 1080px) {
+  :root {
+    --font-card-upper-tags: 900 9px var(--font-family-secondary);
+    --font-card-bottom-tags: 12px var(--font-family-main);
+    --font-cooperation-card-header: 700 16px var(--font-family-main);
+    --font-cooperation-card-suntitle: 500 14px var(--font-family-main);
+    --font-cooperation-card-text: 12px var(--font-family-main);
+    --font-applicant-name: 700 14px/20px var(--font-family-secondary);
+    --font-applicant-info: 12px/20px var(--font-family-secondary);
+    --font-button-checked: 700 12px var(--font-family-secondary);
   }
 }
 
 @media (max-width: 1024px) {
   :root {
-    --font-button-main: 700 13px 'Roboto', Arial, sans-serif;
-    --font-banner-header: 700 30px 'Graphik', Tahoma, sans-serif;
-    --font-banner-text: 14px/18px 'Graphik', Tahoma, sans-serif;
+    --font-button-main: 700 13px var(--font-family-secondary);
+    --font-banner-header: 700 30px var(--font-family-main);
+    --font-banner-text: 14px/18px var(--font-family-main);
+    --font-footer-text: 12px/14px var(--font-family-secondary);
   }
 }
 
 @media (max-width: 768px) {
   :root {
-    --font-banner-header: 700 28px 'Graphik', Tahoma, sans-serif;
-    --font-content-header: 700 24px 'Graphik', Tahoma, sans-serif;
-    --font-content-main: 13px 'Graphik', Tahoma, sans-serif;
+    --font-card-upper-tags: 900 8px var(--font-family-secondary);
+    --font-banner-header: 700 28px var(--font-family-main);
+    --font-content-header: 700 24px var(--font-family-main);
+    --font-content-main: 13px var(--font-family-main);
   }
 }
 
 @media (max-width: 630px) {
   :root {
-    --font-button-outlined: 500 12px/12px 'Graphik', Tahoma, sans-serif;;
+    --font-button-outlined: 500 12px/12px var(--font-family-main);
   }
 }
