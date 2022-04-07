@@ -129,9 +129,5 @@
   }
 }
 
-@media (max-width: 630px) {
-  .button.-outlined {
-    padding: 14px 20px 12px 20px;
-  }
-}
+
 
